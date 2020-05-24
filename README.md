@@ -9,4 +9,4 @@ This does not load env vars into the system terminals. I achieved this using a s
 1. Install jq for terminal
 
 ### Install
-1. Put the below code into your .zshenv
+1. Copy or source useRepoJsonFileToLoadTerminalEnvVars.zsh into your .zshenv
