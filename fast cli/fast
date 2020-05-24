@@ -1,0 +1,16 @@
+#!/bin/zsh
+
+source ~/custom-commands/customCommandsOrderedSources.zsh
+
+if [ -z "$1" ]; then
+  echo "No command passed"
+  exit 2
+fi
+
+if [ ${1} = "-h" ] || [ ${1} = "--help" ] ; then
+    help
+    exit 
+fi
+
+#run sub-command
+$1
