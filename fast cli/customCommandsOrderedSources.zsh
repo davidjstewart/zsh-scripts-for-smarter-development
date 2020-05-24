@@ -5,6 +5,5 @@ source ~/custom-commands/help.zsh
 
 source ~/custom-commands/ubiquitousCommands.zsh
 
-source ~/custom-commands/base64.zsh
 source ~/custom-commands/customCommandsMenu.zsh
 source ~/custom-commands/openRepoPipelinesWithIntellij.zsh
