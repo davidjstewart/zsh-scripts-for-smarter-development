@@ -10,3 +10,6 @@ This does not load env vars into the system terminals. I achieved this using a s
 
 ### Install
 1. Copy or source useRepoJsonFileToLoadTerminalEnvVars.zsh into your .zshenv
+
+## Fast CLI
+See [here](fast%20cli/README.md)
