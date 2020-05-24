@@ -1,7 +1,7 @@
 parentDirname="$(dirname "$PWD")"
 if [ "/Users/dste8/workspace" = $parentDirname ]
 then
-    echo "Parent directory is indeed /Users/dste8/workspace"
+    echo "Parent directory is indeed /Users/david/workspace"
     
     echo "Exports run by the terminal runs -->"
     exports=$(cat env.json | jq -r 'to_entries[] | [" export "+.key,"\""+(.value|tostring+"\"")] | join("=")'); 
